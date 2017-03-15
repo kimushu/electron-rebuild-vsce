@@ -1,0 +1,22 @@
+{
+  "name": "electron-rebuild-vsce",
+  "scope": "kimu_shu",
+  "version": "1.10.2",
+  "description": "electron-rebuild helper for VSCode extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "electron-rebuild-vsce": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "author": "kimu_shu",
+  "license": "MIT",
+  "dependencies": {
+    "electron-rebuild": "^1.5.7"
+  }
+}
